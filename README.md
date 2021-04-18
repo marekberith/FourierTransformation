@@ -18,7 +18,7 @@ IFFT Output:
 
 You can either build the app or use one of the binaries(binaries will be added shortly).
 
-If you want to build the app, you'll need to install the qt binding into your go root. Please, use the following package: https://github.com/therecipe/qt.
+If you want to build the app, you'll need to install GO and the qt binding into your go root. Please, use the following package: https://github.com/therecipe/qt.
 Then clone the repository, open the src folder and build the app using the following command:
 
 `go build`
