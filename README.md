@@ -13,3 +13,9 @@ FFT Output:
 IFFT Output:
 
 (10,-2,-2,-1.9999999999999998)
+
+## How to use?
+
+Clone the repository, open the src folder and build the app using the following command:
+
+`go build`
