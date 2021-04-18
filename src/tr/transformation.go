@@ -36,13 +36,13 @@ func parseVectorFFT(text string) []Vector {
 	tmp := strings.Split(*w, ",")
 	values := make([]Vector, 0, len(tmp))
 	for _, raw := range tmp {
-		v, err := strconv.Atoi(raw)
+		v, err := strconv.ParseFloat(raw, 64)
 		if err != nil {
 			log.Print(err)
 			continue
 		}
 		var vct Vector
-		vct.number = complex(float64(v), 0)
+		vct.number = complex(v, 0)
 		values = append(values, vct)
 	}
 	return values
