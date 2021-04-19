@@ -1,6 +1,6 @@
 # FourierTransformation
 
-FourierTransformation is a GoLang app used to calculate the FFT or the IFFT from a vector. 
+FourierTransformation is a GoLang app used to calculate the FFT or the IFFT from a vector in O(nlog(n)) time. 
 
 Example of a input:
 
